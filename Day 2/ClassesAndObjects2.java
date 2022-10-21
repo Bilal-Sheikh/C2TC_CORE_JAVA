@@ -1,3 +1,5 @@
+// This program shows the working of classes and objects in Java
+
 class Car {
     
     private String doors; // data member

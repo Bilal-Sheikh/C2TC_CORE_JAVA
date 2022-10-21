@@ -1,13 +1,16 @@
+// This program shows the working of constructors in Java
+// Constructors have the same name as the class
+
 class Car {
     private String doors;
     private int speed;
     
-    public Car() {
+    public Car() { // Default Constructor
         doors = "opened";
         speed = 0;
     }
 
-    public Car(String doors, int speed) {
+    public Car(String doors, int speed) { // Parameterized Constructor
     this.doors = doors;
     this.speed = speed;
     }
@@ -40,8 +43,8 @@ class Car {
 public class Constructors {
     public static void main(String[] args) {
 
-        Car obj = new Car("closed",10); 
+        Car obj = new Car("closed",10);  // passsing value in pararmeterized constructor
         
-        System. out.println(obj.run());
+        System.out.println(obj.run()); 
     }
-}
+}   
