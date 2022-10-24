@@ -1,6 +1,6 @@
 // Static keyword can be used in 4 different types
         
-   // 1. Static Variable
+// 1. Static Variable
 
 public class StaticKeyword {
     
@@ -28,7 +28,7 @@ public class StaticKeyword {
     }
 }
 
-  // 2. Static Method
+// 2. Static Method
 
 public class StaticKeyword {
     
@@ -42,8 +42,8 @@ public class StaticKeyword {
     }
 }
 
-    // 3. Static Blocks in Java
-    // It	is	executed	before	main	method	at	the	time	of	classloading.
+// 3. Static Blocks in Java
+// It	is	executed	before	main	method	at	the	time	of	classloading.
 
 public class StaticKeyword {
     
@@ -61,8 +61,8 @@ public class StaticKeyword {
     }
 }
 
-4. Static class
-A class can be made static only if it is a nested class.
+// 4. Static class
+// A class can be made static only if it is a nested class.
 
 class StaticKeyword {
     
